@@ -110,7 +110,11 @@ class _NotesScreenState extends State<NotesScreen> {
               ),
             ),
           ),
-          floatingActionButton: const Icon(Icons.add),
+           floatingActionButton: FloatingActionButton(
+        onPressed: (){},
+        tooltip: 'Add Notes',
+        child: const Icon(Icons.add),
+      ),
         ),
       ),
     );
